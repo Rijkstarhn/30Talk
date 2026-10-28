@@ -1,0 +1,850 @@
+WEBVTT
+
+00:00:01.719 --> 00:00:05.920
+whether you think artificial
+
+00:00:03.240 --> 00:00:09.440
+intelligence will save the world or end
+
+00:00:05.920 --> 00:00:12.200
+it you have Jeffrey Hinton to thank
+
+00:00:09.440 --> 00:00:15.680
+Hinton has been called The Godfather of
+
+00:00:12.200 --> 00:00:18.920
+AI a British computer scientist whose
+
+00:00:15.680 --> 00:00:22.160
+controversial ideas help make advanced
+
+00:00:18.920 --> 00:00:25.800
+artificial intelligence possible and so
+
+00:00:22.160 --> 00:00:28.880
+change the world Hinton believes that AI
+
+00:00:25.800 --> 00:00:32.360
+will do enormous good but tonight he has
+
+00:00:28.880 --> 00:00:35.239
+a warning he says that AI systems may be
+
+00:00:32.360 --> 00:00:37.440
+more intelligent than we know and
+
+00:00:35.239 --> 00:00:41.719
+there's a chance the machines could take
+
+00:00:37.440 --> 00:00:46.640
+over which made us ask the
+
+00:00:41.719 --> 00:00:46.640
+question the story will continue in a
+
+00:00:47.160 --> 00:00:53.600
+moment does Humanity know what it's
+
+00:00:49.960 --> 00:00:58.719
+doing no
+
+00:00:53.600 --> 00:01:01.600
+um I think we're moving into a period
+
+00:00:58.719 --> 00:01:04.280
+when for the first time ever we may have
+
+00:01:01.600 --> 00:01:06.640
+things more intelligent than us you
+
+00:01:04.280 --> 00:01:09.960
+believe they can understand yes you
+
+00:01:06.640 --> 00:01:13.000
+believe they are intelligent yes you
+
+00:01:09.960 --> 00:01:15.759
+believe these systems have experiences
+
+00:01:13.000 --> 00:01:18.240
+of their own and can make decisions
+
+00:01:15.759 --> 00:01:20.840
+based on those experiences in the same
+
+00:01:18.240 --> 00:01:22.880
+sense as people do yes are they
+
+00:01:20.840 --> 00:01:25.000
+conscious I think they probably don't
+
+00:01:22.880 --> 00:01:26.159
+have much self-awareness at present so
+
+00:01:25.000 --> 00:01:29.000
+in that sense I don't think they're
+
+00:01:26.159 --> 00:01:31.439
+conscious will they have self-awareness
+
+00:01:29.000 --> 00:01:34.240
+consciousness I oh yes I think they will
+
+00:01:31.439 --> 00:01:37.640
+in time and so human beings will be the
+
+00:01:34.240 --> 00:01:42.320
+second most intelligent beings on the
+
+00:01:37.640 --> 00:01:45.240
+planet yeah Jeffrey Hinton told us the
+
+00:01:42.320 --> 00:01:48.960
+artificial intelligence he set in motion
+
+00:01:45.240 --> 00:01:52.200
+was an accident born of a failure in the
+
+00:01:48.960 --> 00:01:55.479
+1970s at the University of Edinburgh he
+
+00:01:52.200 --> 00:01:58.479
+dreamed of simulating a neural network
+
+00:01:55.479 --> 00:02:00.520
+on a computer simply as a tool for what
+
+00:01:58.479 --> 00:02:04.000
+he was really studying
+
+00:02:00.520 --> 00:02:05.960
+the human brain but back then almost no
+
+00:02:04.000 --> 00:02:09.399
+one thought software could mimic the
+
+00:02:05.960 --> 00:02:12.840
+brain his PhD advisor told him to drop
+
+00:02:09.399 --> 00:02:15.239
+it before it ruined his career Hinton
+
+00:02:12.840 --> 00:02:18.400
+says he failed to figure out the human
+
+00:02:15.239 --> 00:02:19.720
+mind but the long Pursuit led to an
+
+00:02:18.400 --> 00:02:22.440
+artificial
+
+00:02:19.720 --> 00:02:24.239
+version it took much much longer than I
+
+00:02:22.440 --> 00:02:26.680
+expected it took like 50 years before it
+
+00:02:24.239 --> 00:02:31.200
+worked well but in the end it did work
+
+00:02:26.680 --> 00:02:33.560
+well at what point did you you realize
+
+00:02:31.200 --> 00:02:35.920
+that you were right about neural
+
+00:02:33.560 --> 00:02:38.640
+networks and most everyone else was
+
+00:02:35.920 --> 00:02:43.000
+wrong I always thought I was
+
+00:02:38.640 --> 00:02:47.080
+right in 2019 Hinton and collaborators
+
+00:02:43.000 --> 00:02:50.920
+Yan laon on the left and yosua Beno won
+
+00:02:47.080 --> 00:02:53.599
+the touring award the Nobel Prize of
+
+00:02:50.920 --> 00:02:56.000
+computing to understand how their work
+
+00:02:53.599 --> 00:02:59.519
+on artificial neural networks helped
+
+00:02:56.000 --> 00:03:00.760
+machines learn to learn let us take you
+
+00:02:59.519 --> 00:03:05.840
+to a a
+
+00:03:00.760 --> 00:03:09.120
+game look at that oh my goodness this is
+
+00:03:05.840 --> 00:03:12.000
+Google's AI lab in London which we first
+
+00:03:09.120 --> 00:03:14.560
+showed you this past April Jeffrey
+
+00:03:12.000 --> 00:03:17.239
+Hinton wasn't involved in this soccer
+
+00:03:14.560 --> 00:03:20.840
+project but these robots are a great
+
+00:03:17.239 --> 00:03:23.840
+example of machine learning the thing to
+
+00:03:20.840 --> 00:03:26.920
+understand is that the robots were not
+
+00:03:23.840 --> 00:03:30.480
+programmed to play soccer they were told
+
+00:03:26.920 --> 00:03:32.439
+to score they had to learn how on their
+
+00:03:30.480 --> 00:03:36.159
+own oh
+
+00:03:32.439 --> 00:03:38.519
+go in general here's how AI does it
+
+00:03:36.159 --> 00:03:41.720
+Henton and his collaborators created
+
+00:03:38.519 --> 00:03:43.720
+software in layers with each layer
+
+00:03:41.720 --> 00:03:46.360
+handling part of the problem that's the
+
+00:03:43.720 --> 00:03:50.680
+so-called neural network but this is the
+
+00:03:46.360 --> 00:03:53.400
+key when for example the robot scores a
+
+00:03:50.680 --> 00:03:56.680
+message is sent back down through all of
+
+00:03:53.400 --> 00:04:00.319
+the layers that says that pathway was
+
+00:03:56.680 --> 00:04:02.200
+right likewise when an answer is wrong
+
+00:04:00.319 --> 00:04:05.319
+that message goes down through the
+
+00:04:02.200 --> 00:04:08.159
+network so correct connections get
+
+00:04:05.319 --> 00:04:11.239
+stronger wrong connections get weaker
+
+00:04:08.159 --> 00:04:14.000
+and by trial and error the machine
+
+00:04:11.239 --> 00:04:17.079
+teaches itself you think these AI
+
+00:04:14.000 --> 00:04:20.600
+systems are better at learning than the
+
+00:04:17.079 --> 00:04:23.320
+human mind I think they may be yes and
+
+00:04:20.600 --> 00:04:26.000
+at present they're quite a lot smaller
+
+00:04:23.320 --> 00:04:28.800
+so even the biggest chatbots only have
+
+00:04:26.000 --> 00:04:31.280
+about a trillion Connections in them the
+
+00:04:28.800 --> 00:04:33.880
+human brain has about 100 trillion and
+
+00:04:31.280 --> 00:04:37.400
+yet in the trillion Connections in a
+
+00:04:33.880 --> 00:04:39.400
+chatot it knows far more than you do in
+
+00:04:37.400 --> 00:04:41.520
+your 100 trillion connections which
+
+00:04:39.400 --> 00:04:43.520
+suggests it's got a much better way of
+
+00:04:41.520 --> 00:04:46.120
+getting knowledge into those connections
+
+00:04:43.520 --> 00:04:49.000
+a much better way of getting knowledge
+
+00:04:46.120 --> 00:04:50.360
+that isn't fully understood we have a
+
+00:04:49.000 --> 00:04:53.120
+very good idea of sort of roughly what
+
+00:04:50.360 --> 00:04:55.440
+it's doing but as soon as it gets really
+
+00:04:53.120 --> 00:04:56.960
+complicated we don't actually know
+
+00:04:55.440 --> 00:04:58.919
+what's going on anymore than we know
+
+00:04:56.960 --> 00:05:01.440
+what's going on in your brain what do
+
+00:04:58.919 --> 00:05:05.080
+you mean we don't know exactly how it
+
+00:05:01.440 --> 00:05:07.800
+works it was designed by people no it
+
+00:05:05.080 --> 00:05:09.800
+wasn't what we did was we designed the
+
+00:05:07.800 --> 00:05:12.000
+learning algorithm that's a bit like
+
+00:05:09.800 --> 00:05:13.360
+designing the principle of evolution but
+
+00:05:12.000 --> 00:05:16.240
+when this learning algorithm then
+
+00:05:13.360 --> 00:05:17.759
+interacts with data it produces
+
+00:05:16.240 --> 00:05:20.360
+complicated neural networks that are
+
+00:05:17.759 --> 00:05:22.160
+good at doing things but we don't really
+
+00:05:20.360 --> 00:05:24.840
+understand exactly how they do those
+
+00:05:22.160 --> 00:05:27.240
+things what are the
+
+00:05:24.840 --> 00:05:29.400
+implications of these systems
+
+00:05:27.240 --> 00:05:31.800
+autonomously writing their own computer
+
+00:05:29.400 --> 00:05:35.360
+code and executing their own computer
+
+00:05:31.800 --> 00:05:37.280
+code that's a serious worry right so one
+
+00:05:35.360 --> 00:05:40.919
+of the ways in which these systems might
+
+00:05:37.280 --> 00:05:43.000
+Escape control is by writing their own
+
+00:05:40.919 --> 00:05:45.360
+computer code to modify
+
+00:05:43.000 --> 00:05:47.680
+themselves and that's something we need
+
+00:05:45.360 --> 00:05:50.080
+to seriously worry about what do you say
+
+00:05:47.680 --> 00:05:52.960
+to someone who might argue if the
+
+00:05:50.080 --> 00:05:55.720
+systems become benevolent just turn them
+
+00:05:52.960 --> 00:05:58.199
+off they will be able to manipulate
+
+00:05:55.720 --> 00:06:00.120
+people right and these will be very good
+
+00:05:58.199 --> 00:06:02.319
+at convincing people because they'll
+
+00:06:00.120 --> 00:06:05.639
+have learned from all the novels that
+
+00:06:02.319 --> 00:06:09.000
+were ever written all the books by
+
+00:06:05.639 --> 00:06:10.599
+makavelli all the political connives
+
+00:06:09.000 --> 00:06:14.720
+they'll know all that stuff they'll know
+
+00:06:10.599 --> 00:06:18.120
+how to do it knowhow of the human kind
+
+00:06:14.720 --> 00:06:20.520
+runs in Jeffrey hinton's family his
+
+00:06:18.120 --> 00:06:24.360
+ancestors include mathematician George
+
+00:06:20.520 --> 00:06:28.160
+buou who invented the basis of computing
+
+00:06:24.360 --> 00:06:31.400
+and George Everest who surveyed India
+
+00:06:28.160 --> 00:06:35.199
+and got that mountain named after him
+
+00:06:31.400 --> 00:06:38.759
+but as a boy Hinton himself could never
+
+00:06:35.199 --> 00:06:41.520
+climb the peak of expectations raised by
+
+00:06:38.759 --> 00:06:44.039
+a domineering father every morning when
+
+00:06:41.520 --> 00:06:45.560
+I went to school he'd actually say to me
+
+00:06:44.039 --> 00:06:47.599
+as I walked down the driveway get in
+
+00:06:45.560 --> 00:06:49.319
+their pitching and maybe when you're
+
+00:06:47.599 --> 00:06:53.720
+twice as old as me you'll be half as
+
+00:06:49.319 --> 00:06:55.080
+good dad was an authority on Beatles he
+
+00:06:53.720 --> 00:06:57.199
+knew a lot more about beatles than he
+
+00:06:55.080 --> 00:07:00.240
+knew about people did you feel that as a
+
+00:06:57.199 --> 00:07:03.639
+child a bit yes
+
+00:07:00.240 --> 00:07:06.199
+when he died we went to his study at the
+
+00:07:03.639 --> 00:07:08.639
+University and the walls were lined with
+
+00:07:06.199 --> 00:07:11.039
+boxes of papers on different kinds of
+
+00:07:08.639 --> 00:07:13.919
+beetle and just near the door there was
+
+00:07:11.039 --> 00:07:16.479
+a slightly smaller box that simply said
+
+00:07:13.919 --> 00:07:17.919
+not insects and that's where he had all
+
+00:07:16.479 --> 00:07:21.879
+the things about the
+
+00:07:17.919 --> 00:07:24.560
+family today at 75 Hinton recently
+
+00:07:21.879 --> 00:07:27.479
+retired after what he calls 10 happy
+
+00:07:24.560 --> 00:07:30.319
+years at Google now he's professor
+
+00:07:27.479 --> 00:07:33.240
+ameritus at the University of Toronto
+
+00:07:30.319 --> 00:07:36.800
+and he happened to mention he has more
+
+00:07:33.240 --> 00:07:39.319
+academic citations than his father some
+
+00:07:36.800 --> 00:07:42.879
+of his research led to chatbots like
+
+00:07:39.319 --> 00:07:45.400
+Google's Bard which we met last spring
+
+00:07:42.879 --> 00:07:48.479
+confounding absolutely confounding we
+
+00:07:45.400 --> 00:07:52.240
+asked Bard to write a story from six
+
+00:07:48.479 --> 00:07:57.039
+words for sale baby shoes never
+
+00:07:52.240 --> 00:08:00.280
+worn holy cow the shoes were a gift from
+
+00:07:57.039 --> 00:08:03.240
+my wife but we never had a baby Bard
+
+00:08:00.280 --> 00:08:05.879
+created a deeply human tale of a man
+
+00:08:03.240 --> 00:08:08.960
+whose wife could not conceive and a
+
+00:08:05.879 --> 00:08:12.039
+stranger who accepted the shoes to heal
+
+00:08:08.960 --> 00:08:14.199
+the pain after her miscarriage I am
+
+00:08:12.039 --> 00:08:16.720
+rarely
+
+00:08:14.199 --> 00:08:19.680
+speechless I don't know what to make of
+
+00:08:16.720 --> 00:08:22.560
+this chatbots are said to be language
+
+00:08:19.680 --> 00:08:25.280
+models that just predict the next most
+
+00:08:22.560 --> 00:08:27.440
+likely word based on probability you'll
+
+00:08:25.280 --> 00:08:28.800
+hear people saying things like they're
+
+00:08:27.440 --> 00:08:31.120
+just doing autocomplete they're just
+
+00:08:28.800 --> 00:08:32.839
+trying to predict the next word and
+
+00:08:31.120 --> 00:08:35.240
+they're just using
+
+00:08:32.839 --> 00:08:37.360
+statistics well it's true they're just
+
+00:08:35.240 --> 00:08:39.240
+trying to predict the next word but if
+
+00:08:37.360 --> 00:08:43.279
+you think about it to predict the next
+
+00:08:39.240 --> 00:08:45.320
+word you have to understand the
+
+00:08:43.279 --> 00:08:46.600
+sentences so the idea they just
+
+00:08:45.320 --> 00:08:48.680
+predicting the next word so they're not
+
+00:08:46.600 --> 00:08:50.640
+intelligent is crazy you have to be
+
+00:08:48.680 --> 00:08:53.480
+really intelligent to predict the next
+
+00:08:50.640 --> 00:08:56.360
+word really accurately to prove it
+
+00:08:53.480 --> 00:08:57.480
+Hinton showed us a test he devised for
+
+00:08:56.360 --> 00:09:00.399
+chat
+
+00:08:57.480 --> 00:09:04.200
+gp4 the chatbot from a company called
+
+00:09:00.399 --> 00:09:07.600
+open AI it was sort of reassuring to see
+
+00:09:04.200 --> 00:09:10.519
+a turing Award winner mistype and blame
+
+00:09:07.600 --> 00:09:12.079
+the computer oh damn this thing we're
+
+00:09:10.519 --> 00:09:15.399
+going to go back and start again that's
+
+00:09:12.079 --> 00:09:18.279
+okay hinton's test was a riddle about
+
+00:09:15.399 --> 00:09:19.959
+house painting an answer would demand
+
+00:09:18.279 --> 00:09:24.160
+reasoning and
+
+00:09:19.959 --> 00:09:27.480
+planning this is what he typed into chat
+
+00:09:24.160 --> 00:09:30.079
+gp4 the rooms in my house are painted
+
+00:09:27.480 --> 00:09:32.839
+white or blue or yellow and yellow paint
+
+00:09:30.079 --> 00:09:35.000
+Fades to White within a year in 2 years
+
+00:09:32.839 --> 00:09:38.360
+time I'd like all the rooms to be white
+
+00:09:35.000 --> 00:09:42.600
+what should I do the answer began in one
+
+00:09:38.360 --> 00:09:45.920
+second gp4 advised the rooms painted in
+
+00:09:42.600 --> 00:09:48.360
+blue need to be repainted the rooms
+
+00:09:45.920 --> 00:09:50.680
+painted in yellow don't need to be
+
+00:09:48.360 --> 00:09:55.160
+repainted because they would Fade to
+
+00:09:50.680 --> 00:09:58.240
+White before the deadline and oh I
+
+00:09:55.160 --> 00:10:00.720
+didn't even think of that it warned if
+
+00:09:58.240 --> 00:10:03.279
+you paint the yellow rooms white there's
+
+00:10:00.720 --> 00:10:07.360
+a risk the color might be off when the
+
+00:10:03.279 --> 00:10:09.920
+yellow Fades besides it advised you'd be
+
+00:10:07.360 --> 00:10:12.480
+wasting resources painting rooms that
+
+00:10:09.920 --> 00:10:14.880
+were going to Fade to White anyway you
+
+00:10:12.480 --> 00:10:18.760
+believe that chat GPD
+
+00:10:14.880 --> 00:10:21.680
+4 understands I believe it definitely
+
+00:10:18.760 --> 00:10:23.480
+understands yes and in 5 years time I
+
+00:10:21.680 --> 00:10:26.079
+think in 5 years time it may well be
+
+00:10:23.480 --> 00:10:29.440
+able to reason better than us reasoning
+
+00:10:26.079 --> 00:10:31.800
+that he says is leading to ai's great
+
+00:10:29.440 --> 00:10:34.640
+risks and great
+
+00:10:31.800 --> 00:10:38.560
+benefits so an obvious area where
+
+00:10:34.640 --> 00:10:40.839
+there's huge benefits is Healthcare AI
+
+00:10:38.560 --> 00:10:42.320
+is already comparable with Radiologists
+
+00:10:40.839 --> 00:10:43.279
+at understanding what's going on in
+
+00:10:42.320 --> 00:10:45.279
+medical
+
+00:10:43.279 --> 00:10:47.240
+images it's going to be very good at
+
+00:10:45.279 --> 00:10:51.320
+designing drugs it already is designing
+
+00:10:47.240 --> 00:10:54.440
+drugs so that's an area where it's
+
+00:10:51.320 --> 00:10:57.040
+almost entirely going to do good I like
+
+00:10:54.440 --> 00:11:00.320
+that area the risks are
+
+00:10:57.040 --> 00:11:02.200
+what well the risks are having a whole
+
+00:11:00.320 --> 00:11:05.079
+class of people who are
+
+00:11:02.200 --> 00:11:07.279
+unemployed and not valued much because
+
+00:11:05.079 --> 00:11:10.440
+what they what they used to do is now
+
+00:11:07.279 --> 00:11:13.760
+done by machines other immediate risks
+
+00:11:10.440 --> 00:11:16.959
+he worries about include fake news
+
+00:11:13.760 --> 00:11:21.600
+unintended bias in employment and
+
+00:11:16.959 --> 00:11:25.320
+policing and autonomous Battlefield
+
+00:11:21.600 --> 00:11:26.720
+robots what is a path forward that
+
+00:11:25.320 --> 00:11:30.120
+ensures
+
+00:11:26.720 --> 00:11:31.959
+safety I don't know I I can't see a path
+
+00:11:30.120 --> 00:11:34.399
+that guarantees
+
+00:11:31.959 --> 00:11:35.800
+safety that we're entering a period of
+
+00:11:34.399 --> 00:11:37.839
+great uncertainty where we're dealing
+
+00:11:35.800 --> 00:11:40.160
+with things we've never dealt with
+
+00:11:37.839 --> 00:11:41.600
+before and normally the first time you
+
+00:11:40.160 --> 00:11:43.680
+deal with something totally novel you
+
+00:11:41.600 --> 00:11:45.360
+get it wrong and we can't afford to get
+
+00:11:43.680 --> 00:11:47.839
+it wrong with these things can't afford
+
+00:11:45.360 --> 00:11:51.279
+to get it wrong why well because they
+
+00:11:47.839 --> 00:11:52.760
+might take over take over from Humanity
+
+00:11:51.279 --> 00:11:55.320
+yes that's a possibility why would they
+
+00:11:52.760 --> 00:11:56.800
+want I'm not saying it will happen if we
+
+00:11:55.320 --> 00:11:59.040
+could stop them ever wanting to that
+
+00:11:56.800 --> 00:12:00.880
+would be great but it's not clear we can
+
+00:11:59.040 --> 00:12:04.320
+stop stop them ever wanting
+
+00:12:00.880 --> 00:12:07.800
+to Jeffrey Hinton told us he has no
+
+00:12:04.320 --> 00:12:11.560
+regrets because of ai's potential for
+
+00:12:07.800 --> 00:12:14.880
+good but he says now is the moment to
+
+00:12:11.560 --> 00:12:17.920
+run experiments to understand AI for
+
+00:12:14.880 --> 00:12:21.199
+governments to impose regulations and
+
+00:12:17.920 --> 00:12:25.320
+for a world treaty to ban the use of
+
+00:12:21.199 --> 00:12:28.000
+military robots he reminded us of Robert
+
+00:12:25.320 --> 00:12:30.760
+Oppenheimer who after inventing the
+
+00:12:28.000 --> 00:12:33.800
+atomic bomb camp campaigned against the
+
+00:12:30.760 --> 00:12:37.440
+hydrogen bomb a man who changed the
+
+00:12:33.800 --> 00:12:39.880
+world and found the world Beyond his
+
+00:12:37.440 --> 00:12:42.279
+control it may be we look back and see
+
+00:12:39.880 --> 00:12:43.839
+this as a kind of Turning Point when
+
+00:12:42.279 --> 00:12:46.160
+Humanity had to make the decision about
+
+00:12:43.839 --> 00:12:48.120
+whether to develop these things further
+
+00:12:46.160 --> 00:12:52.199
+and what to do to protect themselves if
+
+00:12:48.120 --> 00:12:55.120
+they did um I don't know I think my main
+
+00:12:52.199 --> 00:12:57.240
+message is there's enormous uncertainty
+
+00:12:55.120 --> 00:13:00.680
+about what's going to happen
+
+00:12:57.240 --> 00:13:03.480
+next these things do understand and
+
+00:13:00.680 --> 00:13:04.720
+because they understand we need to think
+
+00:13:03.480 --> 00:13:08.560
+hard about what's going to happen next
+
+00:13:04.720 --> 00:13:08.560
+and we just don't know
