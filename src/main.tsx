@@ -20,11 +20,40 @@ function loadYoutube(){if(window.YT?.Player)return Promise.resolve();if(ytPromis
   ytPromise=new Promise((resolve,reject)=>{const previous=window.onYouTubeIframeAPIReady;window.onYouTubeIframeAPIReady=()=>{previous?.();resolve()};const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';s.onerror=()=>reject(new Error('YouTube API 加载失败'));document.head.appendChild(s)});return ytPromise;
 }
 function formatTime(t:number){const n=Math.max(0,Math.floor(t));return `${String(Math.floor(n/3600)).padStart(2,'0')}:${String(Math.floor(n%3600/60)).padStart(2,'0')}:${String(n%60).padStart(2,'0')}`}
+function videoIdFromUrl(value:string):string|null{
+ try{const u=new URL(value.trim());if(u.protocol!=='https:')return null;const host=u.hostname.toLowerCase().replace(/^www\./,'').replace(/^m\./,'');let id:string|null=null;
+ if(host==='youtu.be')id=u.pathname.split('/')[1]||null;
+ else if(host==='youtube.com'||host==='youtube-nocookie.com')id=u.pathname==='/watch'?u.searchParams.get('v'):u.pathname.match(/^\/(?:shorts|embed|live)\/([^/]+)/)?.[1]||null;
+ return id&&/^[A-Za-z0-9_-]{11}$/.test(id)?id:null;
+ }catch{return null;}
+}
 function App(){
- const [catalog,setCatalog]=useState<Interview[]>([]),[selected,setSelected]=useState<string>(''),[error,setError]=useState(''),[time,setTime]=useState(0),[duration,setDuration]=useState(0),[en,setEn]=useState<Cue[]>([]),[zh,setZh]=useState<Cue[]>([]),[mode,setMode]=useState<'both'|'zh'|'en'>('both'),[fontSize,setFontSize]=useState(19),[ready,setReady]=useState(false);
+ const [catalog,setCatalog]=useState<Interview[]>([]),[urlInput,setUrlInput]=useState(''),[adminToken,setAdminToken]=useState(''),[addMessage,setAddMessage]=useState(''),[submitting,setSubmitting]=useState(false),[pendingId,setPendingId]=useState(''),[selected,setSelected]=useState<string>(''),[error,setError]=useState(''),[time,setTime]=useState(0),[duration,setDuration]=useState(0),[en,setEn]=useState<Cue[]>([]),[zh,setZh]=useState<Cue[]>([]),[mode,setMode]=useState<'both'|'zh'|'en'>('both'),[fontSize,setFontSize]=useState(19),[ready,setReady]=useState(false);
  const player=useRef<YTPlayer|null>(null),timer=useRef<number|undefined>(undefined),restored=useRef(false);
  useEffect(()=>{fetch('/catalog.json').then(r=>{if(!r.ok)throw Error('无法加载访谈列表');return r.json()}).then((items:Interview[])=>{setCatalog(items);if(items.length)setSelected(items[0].id)}).catch(e=>setError(String(e)))},[]);
- const item=catalog.find(v=>v.id===selected);
+ const allItems=catalog;
+ const item=allItems.find(v=>v.id===selected);
+ const addVideo=async(e:React.FormEvent)=>{
+  e.preventDefault();setAddMessage('');const id=videoIdFromUrl(urlInput);
+  if(!id){setAddMessage('请输入有效的 YouTube HTTPS 链接。');return;}
+  if(!adminToken){setAddMessage('请输入管理员口令。');return;}
+  setSubmitting(true);
+  try{
+   const response=await fetch('/api/submit',{method:'POST',headers:{'content-type':'application/json',authorization:`Bearer ${adminToken}`},body:JSON.stringify({url:urlInput})});
+   const data=await response.json() as {message?:string;error?:string;status?:string};
+   if(!response.ok)throw new Error(data.error||'提交失败');
+   setAddMessage(data.message||'已提交');setPendingId(data.status==='pending'?id:'');setUrlInput('');
+   if(data.status==='ready')window.location.reload();
+  }catch(err){setAddMessage(err instanceof Error?err.message:'提交失败')}
+  finally{setSubmitting(false)}
+ };
+ useEffect(()=>{if(!pendingId)return;const check=async()=>{
+  try{const r=await fetch(`/api/status?id=${pendingId}`,{cache:'no-store'});if(!r.ok)return;
+   const data=await r.json() as {status:string};
+   if(data.status==='ready'){setPendingId('');setAddMessage('字幕处理完成，正在更新页面。部署完成后刷新即可查看。')}
+   else if(data.status==='failed'){setPendingId('');setAddMessage('字幕处理失败，请管理员检查 GitHub Issue。')}
+  }catch{/* retry later */}
+ };void check();const timer=window.setInterval(check,30000);return()=>window.clearInterval(timer)},[pendingId]);
  useEffect(()=>{if(!selected)return;let cancelled=false;setEn([]);setZh([]);setTime(0);setReady(false);setError('');restored.current=false;
    Promise.all([fetch(`/content/${selected}/en.vtt`).then(r=>r.ok?r.text():'').catch(()=>''),fetch(`/content/${selected}/zh.vtt`).then(r=>r.ok?r.text():'').catch(()=>'')]).then(([a,b])=>{if(!cancelled){setEn(parseVtt(a));setZh(parseVtt(b))}});
    return ()=>{cancelled=true};
@@ -41,8 +70,9 @@ function App(){
  const seek=(t:number)=>{player.current?.seekTo(t,true);setTime(t)};
  return <div className="app"><header><div className="brand"><span className="mark">30</span><span>Talk</span></div><span className="tagline">值得反复思考的访谈</span><a href="https://github.com/Rijkstarhn/30Talk" target="_blank" rel="noreferrer">GitHub ↗</a></header>
  <main><div className="intro"><div className="eyebrow">INTERVIEW LIBRARY</div><h1>深度对话，双语聆听。</h1><p>精选人物访谈，原视频播放，中文翻译与英文字幕同步呈现。</p></div>
+ <form className="add-video" onSubmit={addVideo}><label htmlFor="video-url">管理员 · 添加 YouTube 视频</label><div className="add-video-row"><input id="video-url" type="url" value={urlInput} onChange={e=>setUrlInput(e.target.value)} placeholder="https://www.youtube.com/watch?v=..." required/><input aria-label="管理员口令" type="password" value={adminToken} onChange={e=>setAdminToken(e.target.value)} placeholder="管理员口令" autoComplete="off" required/><button type="submit" disabled={submitting}>{submitting?'提交中…':'提交处理'}</button></div><p>提交后由 Mac mini 获取字幕、Codex 翻译、校验并发布。仅管理员可以提交；处理完成后所有访客可观看。</p>{addMessage&&<div className="add-message" role="status">{addMessage}</div>}{pendingId&&<p role="status">任务处理中：{pendingId}（每 30 秒检查状态）</p>}</form>
  {error&&<div role="alert" className="error">{error}</div>}
- {catalog.length===0?<section className="empty">尚无访谈。请确认仓库的 content/ 目录包含 metadata.json 与字幕文件，然后重新构建。</section>:<div className="layout"><aside><div className="aside-title">访谈库 <span>{catalog.length}</span></div>{catalog.map(v=><button key={v.id} className={`interview ${v.id===selected?'chosen':''}`} onClick={()=>setSelected(v.id)}><img src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`} alt="" loading="lazy"/><span><strong>{v.title}</strong><small>{v.ready?'中文字幕已就绪':'字幕处理中'}</small></span></button>)}</aside>
+ {allItems.length===0?<section className="empty">尚无访谈。请确认仓库的 content/ 目录包含 metadata.json 与字幕文件，然后重新构建。</section>:<div className="layout"><aside><div className="aside-title">访谈库 <span>{allItems.length}</span></div>{allItems.map(v=><button key={v.id} className={`interview ${v.id===selected?'chosen':''}`} onClick={()=>setSelected(v.id)}><img src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`} alt="" loading="lazy"/><span><strong>{v.title}</strong><small>{v.ready?'中文字幕已就绪':'暂无中文字幕'}</small></span></button>)}</aside>
  <section className="watch"><div className="player-frame"><div id="yt-player"/></div><div className="video-info"><h2>{item?.title}</h2><a href={item?.url} target="_blank" rel="noreferrer">在 YouTube 打开 ↗</a></div>
  <div className="timebar"><span>{formatTime(time)}</span><input aria-label="播放进度" type="range" min={0} max={Math.max(duration,1)} step="1" value={Math.min(time,Math.max(duration,1))} onChange={e=>seek(Number(e.target.value))} disabled={!ready}/><span>{formatTime(duration)}</span></div>
  <div className="subtitle-controls"><div className="modes"><button className={mode==='both'?'active':''} onClick={()=>setMode('both')}>中英双语</button><button className={mode==='zh'?'active':''} onClick={()=>setMode('zh')}>中文</button><button className={mode==='en'?'active':''} onClick={()=>setMode('en')}>English</button></div><label>字号 <input type="range" min="14" max="30" value={fontSize} onChange={e=>setFontSize(Number(e.target.value))}/></label></div>
