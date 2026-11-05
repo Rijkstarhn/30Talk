@@ -37,11 +37,12 @@ TMP="$(mktemp -d "$ROOT/.subtitle-tmp.XXXXXX")"
 trap 'rm -rf "$TMP"' EXIT
 (cd "$TMP" && "$PYTHON" "$ROOT/fetch_subtitles.py" "$ID")
 [[ -s "$TMP/en.vtt" ]] || { echo "Subtitle fetch failed" >&2; exit 1; }
-cp "$TMP/en.vtt" "$DIR/en.vtt"
-rm -f "$DIR/zh.vtt"
+if [[ ! -s "$DIR/en.vtt" ]] || ! cmp -s "$TMP/en.vtt" "$DIR/en.vtt"; then
+  cp "$TMP/en.vtt" "$DIR/en.vtt"
+  rm -f "$DIR/zh.vtt"
+fi
 
-codex exec --skip-git-repo-check --sandbox workspace-write \
-  "Translate the entire WebVTT file at $DIR/en.vtt into natural Simplified Chinese, preserving every cue timestamp, count, and order exactly. Write ONLY the translated WebVTT file at $DIR/zh.vtt. Do not modify the English file. Do not install packages or use external tools to obtain translation. If the file is too long, stop and report rather than silently omitting cues."
+"$PYTHON" scripts/translate_chunks.py "$DIR/en.vtt" "$DIR/zh.vtt"
 
 "$PYTHON" scripts/validate_subtitles.py "$DIR/en.vtt" "$DIR/zh.vtt"
 
