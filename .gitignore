@@ -9,3 +9,6 @@ dist/
 # Runtime files
 logs/
 .daily-discovery-state.json
+
+# Resumable subtitle translation
+.translation-work/
