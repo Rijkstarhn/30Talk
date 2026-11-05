@@ -17,7 +17,7 @@ gh issue list --repo Rijkstarhn/30Talk --state open --label 30talk-request --lim
 while IFS=$'\t' read -r NUMBER ID; do
  [[ -n "${NUMBER:-}" && "$ID" =~ ^[A-Za-z0-9_-]{11}$ ]] || continue
  echo "Processing issue #$NUMBER: $ID"
- if ./scripts/process_video.sh "https://www.youtube.com/watch?v=$ID"; then
+ if DAILY_PICK_DATE="$(gh issue view "$NUMBER" --repo Rijkstarhn/30Talk --json labels --jq '.labels[] | select(.name=="30talk-daily") | .name' | grep -q . && date +%F || true)" ./scripts/process_video.sh "https://www.youtube.com/watch?v=$ID"; then
    gh issue comment "$NUMBER" --repo Rijkstarhn/30Talk --body "Completed and published: https://www.youtube.com/watch?v=$ID"
    gh issue close "$NUMBER" --repo Rijkstarhn/30Talk
  else

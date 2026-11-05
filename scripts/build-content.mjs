@@ -20,9 +20,10 @@ if (fs.existsSync(source)) {
       for (const filename of ['en.vtt','zh.vtt']) {
         if (fs.existsSync(path.join(dir,filename))) fs.copyFileSync(path.join(dir,filename),path.join(target,filename));
       }
-      items.push({id:meta.id,platform:'youtube',url:`https://www.youtube.com/watch?v=${meta.id}`,title:meta.title || `访谈 ${meta.id}`,description:meta.description || '',language:meta.language || 'en',ready:fs.existsSync(path.join(target,'zh.vtt')),hasOriginal:fs.existsSync(path.join(target,'en.vtt'))});
+      items.push({id:meta.id,platform:'youtube',url:`https://www.youtube.com/watch?v=${meta.id}`,title:meta.title || `Interview ${meta.id}`,description:meta.description || '',language:meta.language || 'en',ready:fs.existsSync(path.join(target,'zh.vtt')),hasOriginal:fs.existsSync(path.join(target,'en.vtt')),publishedAt:meta.published_at || '',dailyPickDate:meta.daily_pick_date || ''});
     } catch (e) {console.warn(`Skipping ${entry.name}: ${e.message}`)}
   }
 }
+items.sort((a,b)=> (b.dailyPickDate||b.publishedAt||'').localeCompare(a.dailyPickDate||a.publishedAt||''));
 fs.writeFileSync(path.join(root,'public','catalog.json'),JSON.stringify(items,null,2));
 console.log(`Prepared ${items.length} interviews`);

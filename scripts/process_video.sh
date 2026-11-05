@@ -48,13 +48,17 @@ codex exec --skip-git-repo-check --sandbox workspace-write \
 "$PYTHON" - "$ID" "$DIR/metadata.json" <<'PY'
 import json, sys
 from pathlib import Path
+from datetime import datetime, timezone
+import os
 video_id, filename = sys.argv[1:]
 Path(filename).write_text(json.dumps({
     'id': video_id,
     'platform': 'youtube',
     'url': f'https://www.youtube.com/watch?v={video_id}',
     'language': 'en',
-    'subtitle_status': 'ready'
+    'subtitle_status': 'ready',
+    'published_at': datetime.now(timezone.utc).isoformat(),
+    **({'daily_pick_date': os.environ['DAILY_PICK_DATE']} if os.environ.get('DAILY_PICK_DATE') else {})
 }, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
 PY
 

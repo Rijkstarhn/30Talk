@@ -1,0 +1,838 @@
+WEBVTT
+
+00:00:01.520 --> 00:00:05.960
+only four companies in the world are
+
+00:00:03.520 --> 00:00:09.120
+worth more than $2 trillion doar
+
+00:00:05.960 --> 00:00:12.799
+Microsoft Apple alphabet parent company
+
+00:00:09.120 --> 00:00:14.839
+of Google and computer chip maker Nvidia
+
+00:00:12.799 --> 00:00:17.800
+the California based company saw its
+
+00:00:14.839 --> 00:00:20.920
+stock market value sore from 1 trillion
+
+00:00:17.800 --> 00:00:23.680
+to $2 trillion in just eight months this
+
+00:00:20.920 --> 00:00:26.320
+past year fueled by the insatiable
+
+00:00:23.680 --> 00:00:28.519
+demand for its cuttingedge technology
+
+00:00:26.320 --> 00:00:30.679
+the hardware and software that make
+
+00:00:28.519 --> 00:00:33.160
+today's artificial intelligence
+
+00:00:30.679 --> 00:00:36.520
+possible we wondered how a company
+
+00:00:33.160 --> 00:00:39.399
+founded in 1993 to improve video game
+
+00:00:36.520 --> 00:00:43.440
+Graphics turned into a Titan of 21st
+
+00:00:39.399 --> 00:00:46.239
+century AI so we went to Silicon Valley
+
+00:00:43.440 --> 00:00:51.199
+to meet nvidia's 61-year-old co-founder
+
+00:00:46.239 --> 00:00:54.680
+and CEO Jensen hang who has no doubt AI
+
+00:00:51.199 --> 00:00:57.640
+is about to change
+
+00:00:54.680 --> 00:01:00.640
+everything the story will continue in a
+
+00:00:57.640 --> 00:01:00.640
+moment
+
+00:01:00.940 --> 00:01:09.920
+[Music]
+
+00:01:07.360 --> 00:01:14.159
+at nvidia's annual developers conference
+
+00:01:09.920 --> 00:01:17.799
+this past March the mood wasn't just
+
+00:01:14.159 --> 00:01:21.200
+upbeat it was downright giddy more than
+
+00:01:17.799 --> 00:01:24.720
+11,000 enthusiasts software developers
+
+00:01:21.200 --> 00:01:27.720
+Tech Mogul and happy shareholders filed
+
+00:01:24.720 --> 00:01:31.240
+into San Jose's Pro Hockey Arena to kick
+
+00:01:27.720 --> 00:01:34.960
+off a 4-day AI extrav
+
+00:01:31.240 --> 00:01:40.240
+aganza they came to see this man Jensen
+
+00:01:34.960 --> 00:01:43.040
+hang CEO of Nvidia welcome to
+
+00:01:40.240 --> 00:01:45.240
+GTC what was that like for you to walk
+
+00:01:43.040 --> 00:01:47.960
+out on that stage and see that you know
+
+00:01:45.240 --> 00:01:50.040
+Bill I'm an engineer not a performer
+
+00:01:47.960 --> 00:01:52.920
+when I walked out there and all of the
+
+00:01:50.040 --> 00:01:55.320
+people going crazy it took the breath
+
+00:01:52.920 --> 00:01:57.200
+out of me and so that was the scariest
+
+00:01:55.320 --> 00:02:00.600
+I've ever been I'm still
+
+00:01:57.200 --> 00:02:03.399
+scared you'd never know it in his
+
+00:02:00.600 --> 00:02:05.600
+signature cool black outfit Jensen
+
+00:02:03.399 --> 00:02:07.920
+shared the stage with Nvidia powered
+
+00:02:05.600 --> 00:02:11.239
+robots let me finish up real quick and
+
+00:02:07.920 --> 00:02:14.120
+shared his vision of an AI future a new
+
+00:02:11.239 --> 00:02:16.720
+Industrial Revolution it reminded us of
+
+00:02:14.120 --> 00:02:19.840
+the transformational moment when Apple
+
+00:02:16.720 --> 00:02:22.800
+Steve Jobs unveiled the iPhone Jensen
+
+00:02:19.840 --> 00:02:26.879
+hang unveiled nvidia's latest Graphics
+
+00:02:22.800 --> 00:02:29.519
+Processing Unit or GPU this is Blackwell
+
+00:02:26.879 --> 00:02:31.840
+designed in America but made in Taiwan
+
+00:02:29.519 --> 00:02:34.800
+like most advanced semiconductors
+
+00:02:31.840 --> 00:02:38.000
+Blackwell he says is the fastest chip
+
+00:02:34.800 --> 00:02:40.000
+ever Google is gearing up for Blackwell
+
+00:02:38.000 --> 00:02:42.800
+the whole industry is gearing up for
+
+00:02:40.000 --> 00:02:46.239
+Blackwell Nvidia ushered in the AI
+
+00:02:42.800 --> 00:02:49.239
+Revolution with its gamechanging GPU a
+
+00:02:46.239 --> 00:02:51.599
+single chip able to process a myriad of
+
+00:02:49.239 --> 00:02:54.519
+calculations all at once not
+
+00:02:51.599 --> 00:02:57.760
+sequentially like more standard chips
+
+00:02:54.519 --> 00:03:00.840
+the GPU is the engine of nvidia's AI
+
+00:02:57.760 --> 00:03:03.920
+computer enabling it to w rapidly absorb
+
+00:03:00.840 --> 00:03:06.640
+a fire hose of information it does
+
+00:03:03.920 --> 00:03:09.239
+quadrillions of calculations a second
+
+00:03:06.640 --> 00:03:11.360
+it's just insane numbers is it doing
+
+00:03:09.239 --> 00:03:12.840
+things now that surprise you we're
+
+00:03:11.360 --> 00:03:15.080
+hoping that it does things that surprise
+
+00:03:12.840 --> 00:03:18.080
+us that's the whole point in some areas
+
+00:03:15.080 --> 00:03:20.400
+like drug Discovery designing better
+
+00:03:18.080 --> 00:03:22.400
+materials that are lighter stronger we
+
+00:03:20.400 --> 00:03:25.000
+need artificial intelligence to help us
+
+00:03:22.400 --> 00:03:26.680
+explore the universe in places that we
+
+00:03:25.000 --> 00:03:29.200
+could have never done ourselves let me
+
+00:03:26.680 --> 00:03:32.239
+show you here bill look at this Jensen
+
+00:03:29.200 --> 00:03:35.239
+took us around the GTC convention hall
+
+00:03:32.239 --> 00:03:37.760
+to show us what AI has made possible in
+
+00:03:35.239 --> 00:03:41.159
+just the past few years I'm making your
+
+00:03:37.760 --> 00:03:43.840
+drink now some Creations were dazzling
+
+00:03:41.159 --> 00:03:45.799
+this is a digital twin of the earth once
+
+00:03:43.840 --> 00:03:48.879
+it learns how to calculate weather it
+
+00:03:45.799 --> 00:03:52.000
+can calculate and predict weather 3,000
+
+00:03:48.879 --> 00:03:55.599
+times faster than a supercomputer and a
+
+00:03:52.000 --> 00:03:58.720
+thousand times less energy but nvidia's
+
+00:03:55.599 --> 00:04:01.840
+AI Revolution extends far beyond this
+
+00:03:58.720 --> 00:04:04.599
+Hall BL
+
+00:04:01.840 --> 00:04:07.040
+metallic spaceship and let's generate
+
+00:04:04.599 --> 00:04:10.000
+something panar Sean demera is
+
+00:04:07.040 --> 00:04:13.439
+originally from Istanbul but co-founded
+
+00:04:10.000 --> 00:04:16.959
+cubric near Boston her AI application
+
+00:04:13.439 --> 00:04:19.680
+uses nvidia's gpus to instantly turn a
+
+00:04:16.959 --> 00:04:21.919
+simple text prompt into a virtual movie
+
+00:04:19.680 --> 00:04:24.440
+set for a fraction of the cost of
+
+00:04:21.919 --> 00:04:27.479
+today's backdrops this isn't something
+
+00:04:24.440 --> 00:04:29.919
+that's already planned no we're doing it
+
+00:04:27.479 --> 00:04:32.199
+in real time it's life is Hollywood
+
+00:04:29.919 --> 00:04:33.759
+knocking at your door and we're we're
+
+00:04:32.199 --> 00:04:37.479
+getting a lot of
+
+00:04:33.759 --> 00:04:40.039
+love nearby at generate biom medicines
+
+00:04:37.479 --> 00:04:43.000
+doctor Alex Snider head of research and
+
+00:04:40.039 --> 00:04:46.120
+development is using nvidia's technology
+
+00:04:43.000 --> 00:04:48.320
+to create protein-based drugs she was
+
+00:04:46.120 --> 00:04:51.240
+surprised at first to see they showed
+
+00:04:48.320 --> 00:04:53.199
+promise in the lab initially when I was
+
+00:04:51.240 --> 00:04:54.759
+told about the application of AI to drug
+
+00:04:53.199 --> 00:04:57.880
+development I sort of rolled my eyes and
+
+00:04:54.759 --> 00:04:59.320
+said yeah you know show me the data and
+
+00:04:57.880 --> 00:05:02.840
+then I looked at the data and it was
+
+00:04:59.320 --> 00:05:06.240
+very compelling Dr Snider's team asks
+
+00:05:02.840 --> 00:05:08.800
+its AI models to create new proteins to
+
+00:05:06.240 --> 00:05:11.600
+fight specific diseases like cancer and
+
+00:05:08.800 --> 00:05:14.880
+Asthma a new way to defeat the Corona
+
+00:05:11.600 --> 00:05:17.720
+virus is now in clinical trials you're
+
+00:05:14.880 --> 00:05:20.280
+now working with proteins that do not
+
+00:05:17.720 --> 00:05:24.479
+exist in nature that you're coming up
+
+00:05:20.280 --> 00:05:26.039
+with by way of AI yes we are actually
+
+00:05:24.479 --> 00:05:28.479
+generating what we call denovo
+
+00:05:26.039 --> 00:05:31.720
+completely new structures that have not
+
+00:05:28.479 --> 00:05:33.400
+existed before do you trust it as
+
+00:05:31.720 --> 00:05:35.600
+scientists we can't trust we have to
+
+00:05:33.400 --> 00:05:38.000
+test we're not putting Frankenstein into
+
+00:05:35.600 --> 00:05:40.039
+people we're taking what's known and
+
+00:05:38.000 --> 00:05:43.000
+we're really pushing the field we're
+
+00:05:40.039 --> 00:05:44.759
+pushing the biology to make drugs that
+
+00:05:43.000 --> 00:05:46.960
+look like regular drugs but function
+
+00:05:44.759 --> 00:05:48.840
+even better this is a technology that
+
+00:05:46.960 --> 00:05:52.440
+will only get better from here Brett
+
+00:05:48.840 --> 00:05:55.919
+Adcock is CEO of figure a Silicon Valley
+
+00:05:52.440 --> 00:05:59.160
+startup with funding from Nvidia look at
+
+00:05:55.919 --> 00:06:03.400
+his answer to labor shortages an Nvidia
+
+00:05:59.160 --> 00:06:04.800
+GP driven prototype called Figure one I
+
+00:06:03.400 --> 00:06:06.840
+think what's been really extraordinary
+
+00:06:04.800 --> 00:06:09.560
+is the pace of progress we've made in 21
+
+00:06:06.840 --> 00:06:12.000
+months from zero to this in Z to this
+
+00:06:09.560 --> 00:06:13.520
+yeah we we were walking this robot in
+
+00:06:12.000 --> 00:06:15.440
+under a year since I Incorporated the
+
+00:06:13.520 --> 00:06:18.199
+company could you do this without
+
+00:06:15.440 --> 00:06:20.639
+invidious technology we think they're
+
+00:06:18.199 --> 00:06:22.240
+arguably the best in the world at this I
+
+00:06:20.639 --> 00:06:24.720
+don't know if this would be possible
+
+00:06:22.240 --> 00:06:28.160
+without them I'm here to assist with
+
+00:06:24.720 --> 00:06:30.680
+tasks as requested we were amazed that
+
+00:06:28.160 --> 00:06:34.639
+figure one is not just walking but
+
+00:06:30.680 --> 00:06:38.560
+seemed to reason hand me something
+
+00:06:34.639 --> 00:06:40.880
+healthy on it figure one was able to
+
+00:06:38.560 --> 00:06:44.240
+understand I wanted the orange not the
+
+00:06:40.880 --> 00:06:46.039
+packaged snack thank you it's not yet
+
+00:06:44.240 --> 00:06:48.520
+perfected yeah you're going to get it
+
+00:06:46.039 --> 00:06:51.800
+but the early results are so promising
+
+00:06:48.520 --> 00:06:54.360
+German automaker BMW plans to start
+
+00:06:51.800 --> 00:06:56.879
+testing the robot in its South Carolina
+
+00:06:54.360 --> 00:06:59.280
+Factory this year I think there's an
+
+00:06:56.879 --> 00:07:00.479
+opportunity to ship billions of robots
+
+00:06:59.280 --> 00:07:04.520
+in the coming
+
+00:07:00.479 --> 00:07:06.919
+decades onto the planet billions I would
+
+00:07:04.520 --> 00:07:11.400
+think that a lot of workers would look
+
+00:07:06.919 --> 00:07:13.599
+at that as this robot is taking my job I
+
+00:07:11.400 --> 00:07:15.240
+think over time Ai and Robotics will
+
+00:07:13.599 --> 00:07:20.039
+start doing more and more what humans
+
+00:07:15.240 --> 00:07:23.160
+can and better but what about the worker
+
+00:07:20.039 --> 00:07:25.240
+the workers work for companies and so
+
+00:07:23.160 --> 00:07:28.199
+companies when they become more
+
+00:07:25.240 --> 00:07:30.960
+productive earnings increase I've never
+
+00:07:28.199 --> 00:07:33.800
+seen one company that had earnings
+
+00:07:30.960 --> 00:07:37.039
+increase and not hire more people there
+
+00:07:33.800 --> 00:07:39.840
+are some jobs that are going to become
+
+00:07:37.039 --> 00:07:41.759
+obsolete well let me offer it this way I
+
+00:07:39.840 --> 00:07:44.440
+believe that you still want human in the
+
+00:07:41.759 --> 00:07:45.879
+loop because we have good judgment
+
+00:07:44.440 --> 00:07:47.400
+because there are circumstances that the
+
+00:07:45.879 --> 00:07:50.520
+machines are not just not going to
+
+00:07:47.400 --> 00:07:53.159
+understand the futuristic Nvidia campus
+
+00:07:50.520 --> 00:07:56.960
+sits just down the road from its modest
+
+00:07:53.159 --> 00:07:59.960
+birth place this Denny's in San Jose
+
+00:07:56.960 --> 00:08:03.319
+good morning where 31 years ago in video
+
+00:07:59.960 --> 00:08:06.400
+was just an idea my goodness when he was
+
+00:08:03.319 --> 00:08:09.159
+15 Jensen hang worked as a dishwasher at
+
+00:08:06.400 --> 00:08:12.199
+Denny's as a 30-year-old electrical
+
+00:08:09.159 --> 00:08:15.280
+engineer married with two children he
+
+00:08:12.199 --> 00:08:19.000
+and two friends Nvidia co-founders Chris
+
+00:08:15.280 --> 00:08:22.039
+malikowski and Curtis PR envisioned a
+
+00:08:19.000 --> 00:08:23.919
+whole new way of processing video game
+
+00:08:22.039 --> 00:08:26.840
+graphics and so we came here right here
+
+00:08:23.919 --> 00:08:28.440
+to this Denny's sat right back there and
+
+00:08:26.840 --> 00:08:31.080
+the three of us decided to start the
+
+00:08:28.440 --> 00:08:33.760
+company frankly I had no idea how to do
+
+00:08:31.080 --> 00:08:37.640
+it and nor did they none of us knew how
+
+00:08:33.760 --> 00:08:40.240
+to do anything their big idea accelerate
+
+00:08:37.640 --> 00:08:43.599
+the processing power of computers with a
+
+00:08:40.240 --> 00:08:45.880
+new graphics chip their initial attempt
+
+00:08:43.599 --> 00:08:47.240
+flopped and nearly bankrupted the
+
+00:08:45.880 --> 00:08:50.120
+company in
+
+00:08:47.240 --> 00:08:53.600
+1996 and the genius of the engineers and
+
+00:08:50.120 --> 00:08:55.920
+Christen Curtis um we pivoted to the
+
+00:08:53.600 --> 00:08:59.079
+right way of doing things and created
+
+00:08:55.920 --> 00:09:01.800
+their groundbreaking GPU the chip took
+
+00:08:59.079 --> 00:09:06.320
+video games from
+
+00:09:01.800 --> 00:09:09.240
+this to this today completely changed
+
+00:09:06.320 --> 00:09:12.440
+computer Graphics saved the company uh
+
+00:09:09.240 --> 00:09:15.000
+launched us into into the stratosphere
+
+00:09:12.440 --> 00:09:18.920
+just eight years after Denny's Nvidia
+
+00:09:15.000 --> 00:09:21.240
+earned a spot in the S&P 500 Jensen then
+
+00:09:18.920 --> 00:09:24.480
+set his sites on developing the software
+
+00:09:21.240 --> 00:09:26.880
+and hardware for a revolutionary GPU
+
+00:09:24.480 --> 00:09:30.240
+driven superc computer which would take
+
+00:09:26.880 --> 00:09:33.120
+the company far beyond video games
+
+00:09:30.240 --> 00:09:36.079
+to Wall Street it was a risky bet to
+
+00:09:33.120 --> 00:09:38.560
+early developers of AI it was a
+
+00:09:36.079 --> 00:09:41.680
+revelation was that luck or was that
+
+00:09:38.560 --> 00:09:45.000
+Vision that was a a luck founded by
+
+00:09:41.680 --> 00:09:48.519
+Vision we invented this capability and
+
+00:09:45.000 --> 00:09:49.880
+then one day the researchers that were
+
+00:09:48.519 --> 00:09:52.720
+uh creating deep
+
+00:09:49.880 --> 00:09:54.200
+learning discovered this architecture
+
+00:09:52.720 --> 00:09:56.320
+because this architecture turns out to
+
+00:09:54.200 --> 00:09:58.839
+have been perfect for them perfect for
+
+00:09:56.320 --> 00:10:00.720
+AI perfect for AI this is the first one
+
+00:09:58.839 --> 00:10:04.160
+we've ever
+
+00:10:00.720 --> 00:10:06.760
+in 2016 Jensen delivered nvidia's AI
+
+00:10:04.160 --> 00:10:10.720
+supercomputer the first of its kind to
+
+00:10:06.760 --> 00:10:12.640
+Elon Musk then a board member of open AI
+
+00:10:10.720 --> 00:10:16.399
+which used it to create the building
+
+00:10:12.640 --> 00:10:21.160
+blocks of chat GPT how are you when AI
+
+00:10:16.399 --> 00:10:23.279
+took off hey guys so did Jensen hang's
+
+00:10:21.160 --> 00:10:26.399
+reputation can we get a picture yeah
+
+00:10:23.279 --> 00:10:28.720
+yeah he's now a Silicon Valley celebrity
+
+00:10:26.399 --> 00:10:31.600
+he told us the boy who immigrated from
+
+00:10:28.720 --> 00:10:34.480
+Taiwan at age n could never have
+
+00:10:31.600 --> 00:10:37.760
+conceived of this it is the most
+
+00:10:34.480 --> 00:10:40.200
+extraordinary thing bill that a
+
+00:10:37.760 --> 00:10:44.639
+normal dishwasher bus boy could grow up
+
+00:10:40.200 --> 00:10:48.240
+to be this there's no magic it's just 61
+
+00:10:44.639 --> 00:10:49.760
+years of hard work every single day I
+
+00:10:48.240 --> 00:10:53.279
+don't think there's anything more than
+
+00:10:49.760 --> 00:10:55.360
+that we met a humble Jensen at Denny's
+
+00:10:53.279 --> 00:10:59.440
+back at nvidia's headquarters in Santa
+
+00:10:55.360 --> 00:11:00.839
+Clara we saw he can be intense
+
+00:10:59.440 --> 00:11:03.720
+let me tell you what some of the people
+
+00:11:00.839 --> 00:11:06.920
+who you work with said about you
+
+00:11:03.720 --> 00:11:11.079
+demanding perfectionist not easy to work
+
+00:11:06.920 --> 00:11:14.000
+for all that sound right perfectly yeah
+
+00:11:11.079 --> 00:11:16.360
+it should be like that if you want to do
+
+00:11:14.000 --> 00:11:18.320
+extraordinary things it shouldn't be
+
+00:11:16.360 --> 00:11:21.360
+easy all right guys keep up the good
+
+00:11:18.320 --> 00:11:24.600
+work Nvidia has never done better
+
+00:11:21.360 --> 00:11:28.040
+investors are bullish but last year more
+
+00:11:24.600 --> 00:11:30.639
+than 600 top AI scientists ethicists and
+
+00:11:28.040 --> 00:11:34.800
+others signed this statement urging
+
+00:11:30.639 --> 00:11:37.279
+caution warning of ai's risk to humanity
+
+00:11:34.800 --> 00:11:40.440
+when I talk to you and I hear you speak
+
+00:11:37.279 --> 00:11:43.600
+Part of Me Goes gee whiz and the other
+
+00:11:40.440 --> 00:11:47.440
+part of me goes oh my God what are we in
+
+00:11:43.600 --> 00:11:49.399
+for yeah yeah which one is it it's both
+
+00:11:47.440 --> 00:11:52.000
+it's both yeah you're feeling all the
+
+00:11:49.399 --> 00:11:55.839
+right feelings I feel both you feel both
+
+00:11:52.000 --> 00:11:59.320
+sure sure Humanity will have the choice
+
+00:11:55.839 --> 00:12:02.560
+to see themselves inferior to machines
+
+00:11:59.320 --> 00:12:05.600
+or Superior to machines Pinar Sean
+
+00:12:02.560 --> 00:12:08.480
+demera is an AI Optimist though she
+
+00:12:05.600 --> 00:12:11.680
+named her company cubric and homage to
+
+00:12:08.480 --> 00:12:14.320
+Stanley kubert the director of 2001 A
+
+00:12:11.680 --> 00:12:17.760
+Space Odyssey hello hell do you read me
+
+00:12:14.320 --> 00:12:21.120
+in that film Hal the AI computer goes
+
+00:12:17.760 --> 00:12:25.199
+Rogue open the pod bay doors
+
+00:12:21.120 --> 00:12:28.440
+H I'm sorry Dave I'm afraid I can't do
+
+00:12:25.199 --> 00:12:30.040
+that I think that's what worries people
+
+00:12:28.440 --> 00:12:34.360
+about AI
+
+00:12:30.040 --> 00:12:36.320
+that we will lose control of it just
+
+00:12:34.360 --> 00:12:39.199
+because a machine can do faster
+
+00:12:36.320 --> 00:12:41.399
+calculations comparisons and analytical
+
+00:12:39.199 --> 00:12:44.399
+solution creation that doesn't make you
+
+00:12:41.399 --> 00:12:48.240
+smarter than you it simply computat
+
+00:12:44.399 --> 00:12:50.720
+faster in my world in my belief smarts
+
+00:12:48.240 --> 00:12:53.519
+have to do with your capacity to love
+
+00:12:50.720 --> 00:12:56.519
+create expand
+
+00:12:53.519 --> 00:12:59.480
+transcend these are qualities that no
+
+00:12:56.519 --> 00:13:02.040
+machine can ever bear that are deserve
+
+00:12:59.480 --> 00:13:05.480
+to Only Humans there is something going
+
+00:13:02.040 --> 00:13:08.440
+on Jensen hang sees an AI future of
+
+00:13:05.480 --> 00:13:12.199
+progress and prosperity not one with
+
+00:13:08.440 --> 00:13:15.560
+machines as our masters we can only hope
+
+00:13:12.199 --> 00:13:18.760
+he's right thank you all for coming
+
+00:13:15.560 --> 00:13:18.760
+thank you

@@ -1,22 +1,50 @@
 [
   {
-    "id": "aAPpQC-3EyE",
+    "id": "DpQQi2scsHo",
     "platform": "youtube",
-    "url": "https://www.youtube.com/watch?v=aAPpQC-3EyE",
-    "title": "访谈 aAPpQC-3EyE",
+    "url": "https://www.youtube.com/watch?v=DpQQi2scsHo",
+    "title": "Interview DpQQi2scsHo",
     "description": "",
     "language": "en",
     "ready": true,
-    "hasOriginal": true
+    "hasOriginal": true,
+    "publishedAt": "",
+    "dailyPickDate": ""
+  },
+  {
+    "id": "aAPpQC-3EyE",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=aAPpQC-3EyE",
+    "title": "Interview aAPpQC-3EyE",
+    "description": "",
+    "language": "en",
+    "ready": true,
+    "hasOriginal": true,
+    "publishedAt": "",
+    "dailyPickDate": ""
+  },
+  {
+    "id": "e0Dlr07jfjA",
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=e0Dlr07jfjA",
+    "title": "Interview e0Dlr07jfjA",
+    "description": "",
+    "language": "en",
+    "ready": true,
+    "hasOriginal": true,
+    "publishedAt": "",
+    "dailyPickDate": ""
   },
   {
     "id": "qrvK_KuIeJk",
     "platform": "youtube",
     "url": "https://www.youtube.com/watch?v=qrvK_KuIeJk",
-    "title": "访谈 qrvK_KuIeJk",
+    "title": "Interview qrvK_KuIeJk",
     "description": "",
     "language": "en",
     "ready": true,
-    "hasOriginal": true
+    "hasOriginal": true,
+    "publishedAt": "",
+    "dailyPickDate": ""
   }
 ]
